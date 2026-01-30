@@ -1,0 +1,39 @@
+# Prerequisites
+/build/
+/out/
+/bin/
+
+# Visual Studio files
+.vs/
+x64/
+Debug/
+Release/
+*.sln
+*.vcxproj*
+
+# Compiled files
+*.exe
+*.obj
+*.pdb
+*.ilk
+
+# User-specific files
+.vscode/
+
+# Ignore build artifacts
+/build/
+/out/
+/bin/
+/x64/
+
+# Ignore Visual Studio files
+.vs/
+*.sln
+*.vcxproj*
+*.user
+
+# Ignore temporary/compiled files
+*.exe
+*.obj
+*.pdb
+*.dll
