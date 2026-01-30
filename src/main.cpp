@@ -2,7 +2,7 @@
 #include "Game.h"
 int main()
 {
-	Game g("config.txt");
+	Game g("Assets/config.txt");
 	g.run();
 	return 0;
 }
