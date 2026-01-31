@@ -6,64 +6,59 @@ A modern arcade shooter built with C++ and SFML, featuring an Entity-Component S
 
 ## 📋 Table of Contents
 
-- [Demo](#-demo)
-- [Features](#-features)
-- [Technologies Used](#-technologies-used)
-- [Prerequisites](#-prerequisites)
-- [Setup & Installation](#-setup--installation)
-- [Controls](#-controls)
-- [Project Structure](#-project-structure)
-- [Gameplay Mechanics](#-gameplay-mechanics)
-- [Configuration](#-configuration)
-- [License](#-license)
+- [🎥 Demo Video](#-demo-video)
+- [✨ Features](#-features)
+- [🛠️ Technologies Used](#-Technologies-Used)
+- [📦 Prerequisites](#-prerequisites)
+- [🚀 Setup & Installation](#-setup--installation)
+- [🎮 How to Run](#-how-to-run)
+- [⌨️ Controls](#-controls)
+- [📂 Project Structure](#-project-structure)
+- [🎯 Gameplay Mechanics](#-gameplay-mechanics)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
 
 ---
 
-## 🎬 Demo
+## 🎥 Demo Video
 
-> **Video/GIF Placeholder**  
-> _Add a demo video or animated GIF showcasing gameplay here_
+> **Note**: A full gameplay demonstration will be linked here soon.
+
+[![Shapes War Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/amr10w/ShapesWar-SFML/blob/main/assets/78f27128-e9cc-45be-879a-2d1fe6cc0efe)
 
 ---
 
 ## ✨ Features
 
-- **Entity-Component System (ECS)**: Clean, modular architecture for scalable game development
-- **Config-Driven Design**: All gameplay parameters are externalized in `config.txt` for easy tweaking
-- **Dynamic Enemy Spawning**: Randomized enemy shapes with configurable spawn rates
-- **Special Weapons System**: Powerful radial attacks for clearing the screen
-- **Score Tracking**: Real-time score display with enemy elimination rewards
-- **Smooth Physics**: Custom 2D vector mathematics for fluid movement
-- **Lifespan Management**: Automatic cleanup of temporary entities (bullets, small enemies)
-- **Collision Detection**: Circle-based collision system for accurate hit detection
-
+- **Custom ECS Engine**: Modular design using a custom Entity-Component System for high performance.
+- **Dynamic Enemy System**: Randomly generated enemies with varying polygon shapes (3-8 sides) and randomized velocities.
+- **Config-Driven Gameplay**: All balance parameters (speed, size, colors, spawn rates) are loaded from an external text file.
+- **Special Weaponry**: High-score reward mechanics that unlock powerful radial blast attacks.
+- **Smooth Collision Logic**: Circle-based bounding volumes for accurate hit detection between all game entities.
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology | Description |
-|-----------|-------------|
-| **C++17** | Modern C++ standard with STL features |
-| **SFML 2.6.1** | Simple and Fast Multimedia Library for graphics and input |
-| **CMake 3.14+** | Cross-platform build system |
-| **MinGW-w64** | GCC compiler for Windows |
-| **Entity-Component System** | Custom-built ECS for game architecture |
+- **Language**: C++17
+- **Graphics & Input**: SFML 2.6.1 (Simple and Fast Multimedia Library)
+- **Build System**: CMake 3.14+
+- **Compiler**: MinGW-w64 (GCC)
 
 ---
 
 ## 📦 Prerequisites
 
-Ensure you have the following tools installed on your system:
+Ensure you have the following installed to build the project from source:
 
-| Tool | Version | Purpose | Download Link |
-|------|---------|---------|---------------|
-| **Git** | Latest | Version control and cloning the repository | [git-scm.com](https://git-scm.com/downloads) |
-| **CMake** | 3.14+ | Build configuration | [cmake.org](https://cmake.org/download/) |
-| **MinGW-w64** | GCC 11.0+ | C++ compiler | [winlibs.com](https://winlibs.com/) or [mingw-w64.org](https://www.mingw-w64.org/) |
-| **Make** | Latest | Build automation (usually comes with MinGW) | Included with MinGW |
+| Requirement | Purpose | Download Link |
+| :--- | :--- | :--- |
+| **Git** | Version Control | [git-scm.com](https://git-scm.com/) |
+| **CMake** | Build Management | [cmake.org](https://cmake.org/) |
+| **MinGW-w64** | C++ Compiler | [winlibs.com](https://winlibs.com/) |
+| **VS Code** | Development IDE | [code.visualstudio.com](https://code.visualstudio.com/) |
 
 > **Note**: SFML is automatically downloaded and configured by CMake using `FetchContent`, so you don't need to install it manually.
-
+-- 
 ### Verifying Installation
 
 After installation, verify each tool is accessible from the command line:
