@@ -11,7 +11,6 @@ A modern arcade shooter built with C++ and SFML, featuring an Entity-Component S
 
 - [🎥 Demo Video](#-demo-video)
 - [✨ Features](#-features)
-- [🛠️ Technologies Used](-technologies-used)
 - [📦 Prerequisites](#-prerequisites)
 - [🚀 Setup & Installation](#-setup--installation)
 - [🎮 How to Run](#-how-to-run)
