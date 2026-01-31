@@ -11,7 +11,7 @@ A modern arcade shooter built with C++ and SFML, featuring an Entity-Component S
 
 - [🎥 Demo Video](#-demo-video)
 - [✨ Features](#-features)
-- [🛠️ Technologies Used](#-Technologies-Used)
+- [🛠️ Technologies Used](-technologies-used)
 - [📦 Prerequisites](#-prerequisites)
 - [🚀 Setup & Installation](#-setup--installation)
 - [🎮 How to Run](#-how-to-run)
@@ -224,43 +224,19 @@ Bullet <shapeRadius> <collisionRadius> <speed> <fillR> <fillG> <fillB> <outlineR
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
 
-```
-MIT License
-
-Copyright (c) 2026 Amr
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+This project is licensed under the MIT License. View the full license file here: [LICENSE](https://github.com/amr10w/ShapesWar-SFML/blob/main/LICENSE).
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **SFML Team** for the excellent multimedia library
-- **Dave Churchill** for ECS architecture inspiration
+- Dave Churchill: This project was developed as part of his C++ Game Programming course. The ECS architecture and core systems are based on his curriculum and YouTube tutorials.
 - Font: **[Killer Tech](https://www.dafont.com/killer-tech.font)** by GemFonts
 
 ---
 
-## � Author
+## Author
 
 **GitHub**: [@amr10w](https://github.com/amr10w)
 
