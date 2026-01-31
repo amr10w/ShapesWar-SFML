@@ -1,5 +1,8 @@
 # Shapes War 🎮
 
+![C++](https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![SFML](https://img.shields.io/badge/SFML-2.6.1-8CC445?style=for-the-badge&logo=sfml&logoColor=white)
+
 A modern arcade shooter built with C++ and SFML, featuring an Entity-Component System (ECS) architecture and fully config-driven gameplay.
 
 ---
@@ -74,51 +77,34 @@ mingw32-make --version
 
 ## 🚀 Setup & Installation
 
-### 1. Clone the Repository
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/amr10w/ShapesWar-SFML.git
+   cd ShapesWar-SFML
+   ```
 
-```bash
-git clone https://github.com/amr10w/ShapesWar-SFML.git
-cd ShapesWar-SFML
-```
+2. **Open in VS Code**:
+   - Launch VS Code and open the project folder
+   - Ensure you have the **C++** and **CMake Tools** extensions installed
 
-### 2. Configure the Project with CMake
+3. **Configure the Project**:
+   - Press `Ctrl + Shift + P` and type **CMake: Configure**
+   - Select your MinGW kit from the list (e.g., GCC 13.x.x)
 
-Create a build directory and configure the project:
+---
 
-```bash
-mkdir build
-cd build
-cmake .. -G "MinGW Makefiles"
-```
+## 🎮 How to Run
 
-> **Important**: The `-G "MinGW Makefiles"` flag tells CMake to generate Makefiles compatible with MinGW.
+1. **Build**: Press `F7` or click the **Build** button in the status bar
 
-### 3. Build the Project
+2. **Run**: Press `Ctrl + F5` or click the **Play** button in the status bar
 
-Compile the source code:
+> The build system automatically copies DLLs and assets into the output folder for you.
 
-```bash
-mingw32-make
-```
-
-Alternatively, if you're using **Visual Studio Code**, you can use the built-in CMake tools:
-
-- Press `Ctrl + Shift + P` → Type `CMake: Configure`
-- Press `Ctrl + Shift + B` to build
-- Or press `F7` to build with default tasks
-
-### 4. Run the Game
-
-After building, run the executable from the terminal:
-
+**Alternatively**, run from terminal:
 ```bash
 .\build\ShapeWar.exe
 ```
-
-Or in **Visual Studio Code**:
-
-- Press `Ctrl + Shift + F5` to run without debugging
-- Press `F5` to run with debugging
 
 ---
 
@@ -274,11 +260,9 @@ SOFTWARE.
 
 ---
 
-## 📧 Contact
+## � Author
 
-For questions or feedback, feel free to reach out:
-
-- **GitHub**: [@amr10w](https://github.com/amr10w)
+**GitHub**: [@amr10w](https://github.com/amr10w)
 
 ---
 
